@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Big Party - Photo Sharing</title>
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: #333;
+}
+.container {
+text-align: center;
+background: white;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+max-width: 400px;
+width: 90%;
+}
+h1 {
+margin-bottom: 10px;
+color: #4a148c;
+}
+p {
+color: #666;
+margin-bottom: 30px;
+}
+.upload-btn {
+display: inline-block;
+background: #ff4081;
+color: white;
+padding: 15px 30px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.1em;
+transition: transform 0.2s, background 0.2s;
+box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4);
+}
+.upload-btn:hover {
+background: #f50057;
+transform: translateY(-2px);
+}
+.footer {
+margin-top: 30px;
+font-size: 0.8em;
+color: #999;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>🎉 The Afterparty!</h1>
+<p>Help us capture the night. Click the button below to upload your favorite photos from the party!</p>
+
+<a href="#" class="upload-btn" target="_blank">📸 Upload Photos</a>
+
+<div class="footer">Thanks for celebrating with us!</div>
+</div>
+
+</body>
+</html>
